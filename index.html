@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="d-flex justify-content-center align-items-center" style="min-height: 100vh; background-color: black;">
+    <button onclick="showNotification('success', 'text to insert success', 4000)" class="btn btn-primary">Show Success Notification</button>
+    <button onclick="showNotification('error', 'text to insert error', 4000)" class="btn btn-danger ms-2">Show Error Notification</button>
+    <button onclick="showNotification('warning', 'text to insert warning', 4000)" class="btn btn-warning ms-2">Show Warning Notification</button>
+    <button onclick="showNotification('info', 'text to insert information', 4000)" class="btn btn-info ms-2">Show Information Notification</button>
+    <button onclick="showNotification('system', 'text to insert system', 4000)" class="btn btn-secondary ms-2">Show System Notification</button>
+
+    <div id="notification-container" class="position-fixed top-0 end-0 p-3"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/7fc82cf53a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
