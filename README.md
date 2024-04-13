@@ -1,9 +1,9 @@
 # Basic NOtify
 
-## Descrizione
+## Description
 This project implements an interactive notification system using HTML, CSS and JavaScript. Notifications can be of different types: success, error, warning, information and system.
 
-## Utilizzo
+## Usage
 To display a notification, simply call the `showNotification` function with the following parameters:
 - `type`: the type of notification (success, error, warning, info, system)
 - `message`: the message to display in the notification
