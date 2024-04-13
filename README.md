@@ -1,4 +1,4 @@
-# Basic NOtify
+# Basic Notify
 
 ## Description
 This project implements an interactive notification system using HTML, CSS and JavaScript. Notifications can be of different types: success, error, warning, information and system.
